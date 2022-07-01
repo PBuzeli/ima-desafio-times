@@ -1,0 +1,117 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* estruturas */
+body {
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 30%;
+    padding-right: 15px;
+}
+.table {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DDDDDD;;
+    border-collapse: collapse;
+    line-height: 1.6;
+}
+.subtitle {
+    font-size: 13px;
+    color: #999999;
+    align-items: center;
+    font-weight: bold; 
+    
+}
+
+/* cores */
+.marineBlue {
+    color: #003366;
+}
+.skyBlue {
+    color: #1398be;
+}
+.orange {
+    color: #de9800;
+}
+.grey {
+    color: #cccccc;
+}
+.red {
+    color: #c91b04;
+}
+.bold {
+    font-weight: bold;
+}
+.time4 {
+    border-bottom: 2px solid #cccccc;
+}
+.time16 {
+    border-bottom: 2px solid #cccccc;
+}
+
+/* textos */
+tr {
+    text-align: center;
+    border: 1px;
+}
+td {
+    width: 45px;
+}
+th {
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+       
+}
+
+/* colunas */
+.column1 {
+    font-size: 18px;
+    text-align: center;
+    padding-right: 10px;
+}
+.column2 {
+    font-size: 14px;
+    text-align: left;
+    color: #666666;
+    padding-right: 100px;
+}
+.column3 {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    background-color: #F7F7F7;
+    padding-right: 14px;
+}
+.column {
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+.bkcolumn {
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+    background-color: #F7F7F7;
+}
+/* legenda */
+label {
+    font-size: 10px;    
+    text-align: left;
+    color: #555555;
+}
+.pl-3 {
+    padding-left: 3px;
+    color: #8F8F8F;
+    text-align: left;
+    font-size: 10px;
+    font-weight: normal;
+
+}
+div {
+    text-align: end;
+}
